@@ -1,0 +1,120 @@
+* {
+	margin:0 ;
+	padding:0;
+text-align: center;
+}
+
+h1{
+font-size:60px;
+}
+
+body {
+	background-color: white;
+    color : block ;
+direction: rtl;
+}
+
+/* خلفية الموقع*/
+ #header {
+	border: solid 5px #18b491 ;
+	height : 300px;
+	width:99%;
+	background-color:#18b491;
+	font-size:60px ;
+	border-radius: 5px 5px 5px 5px;
+	margin-top:px;
+	}
+	
+			/* القائمة */
+			#menu ul li a{
+	text-decoration: none ;
+	color: white;
+	font-family:"times new  roman", times, serif;
+	font-size: 25px ;
+	font-weight: bold ;
+	border: black   solid  5px ;
+	padding: 7px 18px 7px 18px;
+	border-radius: 5px 5px 5px 5px ;
+	background-color: black;
+	margin:40px  10px 20px 40px ;
+	margin-bottom:50px;
+}
+
+ul{
+	width :98% ;
+	height: 40px ;
+	padding-top: 5px ;
+	padding: 5px 5px 5px 5px ;
+	margin-top: px ;
+	border-radius: 5px 5px 5px 5px ;
+}
+
+li{
+display: inline-block ;
+padding-left:2px ;
+}
+
+/* المواضيع*/
+.imgs un ln{
+	text-decoration: none ;
+	color: black ;
+	font-family:"times new  roman", times, serif;
+	font-size: 35px ;
+	width:295px ;
+	height:950px ;
+	font-weight: bold ;
+	border: #66cdaa  solid  ;
+	border-radius: 50px 50px 50px 50px ;
+	background-color: #66cdaa;
+	margin:10px;
+}
+
+ln{
+display: inline-block ;
+}
+/*نسبه */ 
+	.text2{
+		height:1300px;
+		background-color:#66cdaa;
+		}
+
+/* مناقبة */
+	.text3{
+		height:2300px;
+		background-color:#18b491;
+		padding:20px;
+		}
+		
+/* مؤلفاته */
+	.text4{
+		height:9680px;
+		background-color:#66cdaa;
+		border:solid 5px #66cdaa;
+		padding:20px;
+		}
+
+.nav{
+	color: white ;
+border: solid 5px #20b2aa;
+	width: 98,5%;
+	margin-top : px ;
+	height:80px;
+font-size: 40px;
+font-weight: bold;
+padding: 7px 7px 7px 7px ;
+background-color:#20b2aa;
+border-radius: 5px 5px 5px 5px ;
+}
+
+.text1{
+	background-color:#18b491;
+	margin-top:20px;
+	border: solid 5px #18b491;
+}
+
+/*اعمالنا*/
+.text1 ,.text2 ,.text3 ,.text4 ,.text5{
+width :98,5%;
+font-size:45px ;
+font-weight: bold;
+	}
