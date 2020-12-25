@@ -32,7 +32,7 @@ height: auto;
 		background-color:#66cdaa;
 		border:solid 5px #66cdaa;
 		padding:20px;
-		font-size:12px;
+		font-size:40px;
 		font-weight: bold ;
 		}
 /* مؤلفاته */
@@ -42,7 +42,7 @@ height: auto;
 		border:solid 5px #66cdaa;
 		padding:20px;
 		font-weight: bold ;
-		font-size:14px 	
+		font-size:40px 	
 		}
 
 
@@ -116,7 +116,7 @@ display: inline-block ;
 	.text2{
 		height:auto;
 		background-color:#66cdaa;
-		font-size:20px ;
+		font-size:40px ;
 		font-weight: bold;
 		}
 
@@ -125,7 +125,7 @@ display: inline-block ;
 		height:auto;
 		background-color:#18b491;
 		padding:20px;
-		font-size:20px ;
+		font-size:40px ;
 		font-weight: bold;
 		}
 		/*  القصيدة الثانية*/
@@ -133,7 +133,7 @@ display: inline-block ;
 		height:auto;
 		background-color:#18b491;
 		padding:20px;
-		font-size:20px ;
+		font-size:40px ;
 		font-weight: bold;
 		
 		}
@@ -142,7 +142,7 @@ display: inline-block ;
 		height:auto;
 		background-color:#18b491;
 		padding:20px;
-		font-size:20px ;
+		font-size:40px ;
 		font-weight: bold;
 		}
 		
@@ -159,7 +159,7 @@ display: inline-block ;
 		height:auto;
 		background-color:#66cdaa;
 		padding:20px;
-		font-size:20px ;
+		font-size:40px ;
 		font-weight: bold;
 		}
 		
@@ -181,7 +181,7 @@ border-radius: 5px 5px 5px 5px ;
 	background-color:#18b491;
 	margin-top:20px;
 	border: solid 5px #18b491;
-	font-size:20px ;
+	font-size:40px ;
 	font-weight: bold;
 
 }
