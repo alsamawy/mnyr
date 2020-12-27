@@ -27,7 +27,7 @@ $email_message .="comments:".clean_string($comments)
 ."\n";
 
 //create email headers
-$headers='form'.$email_form.\r\n.'reply-to:'.$email_form."\r\n".'x-mailer:php/'.phpversion();
+$headers='form'.$email_form.\r\n.'reply-to:'.$email_form."\r\n".'x-mailer:'.phpversion();
 @mail($email_subject, $email_message. $headers);
 ?>
 <?php
