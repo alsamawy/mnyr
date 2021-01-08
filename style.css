@@ -8,14 +8,6 @@ h1{
 font-size:60px;
 }
 
-button{
-width=100px;
-height:=40px ;
-font-size:30px ;
-}
-
-
-
 h2{
 font-size: 40px;
 color: red;
@@ -43,6 +35,7 @@ height: auto;
 		font-size:40px;
 		font-weight: bold ;
 		}
+		
 /* مؤلفاته */
 	.text9{
 		height:auto;
@@ -50,7 +43,7 @@ height: auto;
 		border:solid 5px #66cdaa;
 		padding:20px;
 		font-weight: bold ;
-		font-size:40px 	
+		font-size:40px;
 		}
 
 
@@ -84,7 +77,6 @@ direction: rtl;
 	border-radius: 5px 5px 5px 5px ;
 	background-color: black;
 	margin:7px  7px 7px 7px ;
-	
 	margin-bottom:50px;
 }
 
@@ -102,24 +94,10 @@ display: inline-block ;
 padding-left:2px ;
 }
 
-/* المواضيع*/
-.imgs un ln{
-	text-decoration: none ;
-	color: black ;
-	font-family:"times new  roman", times, serif;
-	font-size: 35px ;
-	width:295px ;
-	height:950px ;
-	font-weight: bold ;
-	border: #66cdaa  solid  ;
-	border-radius: 50px 50px 50px 50px ;
-	background-color: #66cdaa;
-	margin:10px;
-}
 
-ln{
-display: inline-block ;
-}
+/* المواضيع*/
+
+
 /*نسبه */ 
 	.text2{
 		height:auto;
@@ -136,6 +114,7 @@ display: inline-block ;
 		font-size:40px ;
 		font-weight: bold;
 		}
+		/*
 			.text12{
 		height:auto;
 		background-color:#18b491;
@@ -143,33 +122,75 @@ display: inline-block ;
 		font-size:40px ;
 		font-weight: bold;
 		}
-		/*  القصيدة الثانية*/
+		*/
+	
+
+	/*المخطوطات*/	
 	.text7{
 		height:auto;
 		background-color:#18b491;
 		padding:20px;
 		font-size:40px ;
 		font-weight: bold;
-		
+
 		}
-		/*المخطوطات*/
-		.text6{
+		
+		/*
+.text6{
 		height:auto;
 		background-color:#18b491;
 		padding:20px;
 		font-size:40px ;
 		font-weight: bold;
 		}
-		
+		*/
+		/*خلفية القصائد*/
 			.text8{
 		height:auto;
 		background-color:#66cdaa;
 		padding:20px;
 		font-size:45px ;
 		font-weight: bold;
-		
-
 		}
+/* القصائد*/
+.textt,.texttt{
+background-color:#66cdaa;
+border: solid 5px #66cdaa;
+font-size :35px;
+width:auto;
+height:auto ;
+display: inline-block;
+text-align:right ;
+	font-weight: bold;
+}
+.textt1,.texttt2{
+background-color:#66cdaa;
+border: solid 5px #66cdaa;
+font-size :40px;
+width:auto;
+height:auto ;
+display: inline-block;
+text-align:right ;
+	font-weight: bold;
+}
+/*الثلاث الصور*/
+.mmm,.nnn,.bbb{
+background-color:white ;
+font-size :35px;
+width:295px ;
+height:auto ;
+display: inline-block;
+text-align:right ;
+	font-weight: bold;
+	margin-top:10px ;
+	border: #66cdaa  solid  ;
+	border-radius: 50px 50px 50px 50px ;
+	background-color: #66cdaa;
+	margin-right:5px ;
+	margin-left:5px ;
+	text-align: center;
+}
+/*زوار الموقع*/
 			.text10{
 		height:auto;
 		background-color:#66cdaa;
@@ -178,7 +199,7 @@ display: inline-block ;
 		font-weight: bold;
 		}
 		
-
+/*حقوق الموقع*/
 .nav{
 	color: white ;
 border: solid 5px #20b2aa;
@@ -191,21 +212,21 @@ padding: 7px 7px 7px 7px ;
 background-color:#20b2aa;
 border-radius: 5px 5px 5px 5px ;
 }
-
+/* نبذة مختصرة عن الموقع*/
 .text1{
 	background-color:#18b491;
 	margin-top:20px;
 	border: solid 5px #18b491;
 	font-size:40px ;
 	font-weight: bold;
-
 }
 
 /*اعمالنا*/
-.text1 ,.text2 ,.text3 ,.text4 ,.text5 ,.text 6 ,.text7{
+.text1 ,.text2 ,.text3 ,.text4 ,.text5 ,.text6{
 width :98,5%;
 	}
 	
+
 	.menu1 ub lb a{
 	text-decoration: none ;
 	color: white;
@@ -221,20 +242,20 @@ width :98,5%;
 	height:auto ;
 	margin-bottom:50px;
 }
-/*
 ub{
+	
 	width :99% ;
 	height: 60px ;
 	padding-top: 5px ;
 	padding: 5px 5px 5px 5px ;
 	border-radius: 5px 5px 5px 5px ;
-	border: solid 1px red ;
 }
-*/
+
 lb{
 display: inline-block ;
 padding-left:2px ;
 }
+	/*العودة الى الصفحة*/
 .text11{
 	height:70px;
 	background-color:#18b491;
@@ -242,36 +263,10 @@ padding-left:2px ;
 	font-size:45px ;
 }
 
-input[type="text"],textarea, input[type="email"]{
-text-align: center ;
-background-color:white ;
-width:80%;
-height:50px;
-border: 1px solid  #999;
-border-radius: 15px ;
 
-margin: 5px 180px   ;
 
-direction: rtl ;
 
-padding:0 18px ;
 
-font-size:15px ;
-font-weight: bold ;
-}
-
-textarea {
-height: 400px ;
-}
-
-input[type="submit"]{
-text-align: center;
-font-weight: bold;
-font-size:30px ;
-width:500px ;
-height:50px;
-margin-right:200px ;
-}
 
 
 
